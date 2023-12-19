@@ -33,6 +33,9 @@
 //     console.log("num default");
 // }
 
-var arr = [1, "mass"]
-arr [1] = 45;
-console.log(arr);
+for(var i = 10; i <= 20; i++){
+    if(i%2 ==0)
+    continue;
+
+    console.log(i);
+}
