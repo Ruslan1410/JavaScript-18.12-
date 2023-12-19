@@ -14,21 +14,25 @@
 
 // console.log("Math: " + (Math.PI + Math.max(5, 6, 4, 2)+ Math.min(2, -3,-1, 0)))
 
-var num = 4;
+// var num = 4;
 
-switch(num) {
-    case 5:
-        console.log("num = 2");
-        break;
-        case 2:
-            console.log("num = 3");
-            break;
-            case 3:
-                console.log("num = 3");
-                break;
-                case 1:
-                    console.log("num = 1");
-                    break;
-default:
-    console.log("num default");
-}
+// switch(num) {
+//     case 5:
+//         console.log("num = 2");
+//         break;
+//         case 2:
+//             console.log("num = 3");
+//             break;
+//             case 3:
+//                 console.log("num = 3");
+//                 break;
+//                 case 1:
+//                     console.log("num = 1");
+//                     break;
+// default:
+//     console.log("num default");
+// }
+
+var arr = [1, "mass"]
+arr [1] = 45;
+console.log(arr);
