@@ -33,9 +33,17 @@
 //     console.log("num default");
 // }
 
-for(var i = 10; i <= 20; i++){
-    if(i%2 ==0)
-    continue;
+// for(var i = 10; i <= 20; i++){
+//     if(i%2 ==0)
+//     continue;
 
-    console.log(i);
+//     console.log(i);
+// }
+
+var person = null;
+if(confirm("You ready?")){
+    person = prompt("Enter you name");
+    alert("Hello," + person);
+} else {
+    alert("You enter exit");
 }
